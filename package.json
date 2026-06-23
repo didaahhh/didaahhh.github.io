@@ -1,0 +1,16 @@
+{
+  "name": "portfolio-didah-paridah",
+  "version": "1.0.0",
+  "description": "Portfolio website connected to GitHub public repositories.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "keywords": [
+    "portfolio",
+    "github",
+    "automation-engineering"
+  ],
+  "author": "Didah Paridah",
+  "license": "MIT"
+}
