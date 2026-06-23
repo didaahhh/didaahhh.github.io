@@ -3,205 +3,241 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Didah Paridah — Portfolio</title>
-  <meta
-    name="description"
-    content="Portfolio Didah Paridah, mahasiswa Teknologi Rekayasa Otomasi dengan minat pada otomasi industri, control system, CAD, Arduino, SCADA, dan HMI."
-  />
+  <title>Didah Paridah | Portfolio</title>
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <header class="site-header" id="home">
-    <nav class="nav wrap" aria-label="Navigasi utama">
-      <a class="brand" href="#home">Didah Paridah</a>
 
-      <button class="menu-button" id="menuButton" type="button" aria-label="Buka menu" aria-expanded="false">
-        <span></span>
-        <span></span>
-      </button>
+  <header class="navbar">
+    <a href="#" class="logo">Didah<span>.</span></a>
 
-      <div class="nav-menu" id="navMenu">
-        <a href="#about">Tentang</a>
-        <a href="#experience">Pengalaman</a>
-        <a href="#skills">Skill</a>
-        <a href="#github">GitHub</a>
-        <a href="#contact">Kontak</a>
-      </div>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#experience">Experience</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">GitHub</a>
+      <a href="#contact">Contact</a>
     </nav>
   </header>
 
   <main>
-    <section class="hero wrap">
-      <div class="hero-copy">
-        <p class="eyebrow">Automation Engineering Technology</p>
-        <h1>Portfolio sederhana untuk karya, pengalaman, dan project.</h1>
+    <section class="hero">
+      <div class="pattern pattern-one"></div>
+      <div class="pattern pattern-two"></div>
+
+      <div class="hero-content">
+        <p class="label">Automation Engineering Student</p>
+        <h1>Hi, I’m <span>Didah Paridah</span></h1>
         <p class="hero-text">
-          Saya Didah Paridah, mahasiswa Teknologi Rekayasa Otomasi di Diponegoro University.
-          Saya tertarik pada otomasi industri, sistem kontrol, CAD, proses manufaktur, Arduino,
-          SCADA, dan HMI.
+          A student of Automation Engineering Technology with an interest in
+          industrial automation, control systems, CAD design, and manufacturing processes.
         </p>
 
-        <div class="hero-actions">
-          <a class="button primary" href="#github">Lihat GitHub</a>
-          <a class="button" href="mailto:didaahhh@gmail.com">Kirim Email</a>
+        <div class="hero-buttons">
+          <a href="#projects" class="btn primary">View Projects</a>
+          <a href="#contact" class="btn secondary">Contact Me</a>
         </div>
       </div>
 
-      <aside class="profile-card" aria-label="Profil singkat">
-        <div class="avatar">DP</div>
-        <div>
-          <h2>Didah Paridah</h2>
-          <p>Kota Tangerang Selatan, Banten</p>
-        </div>
-        <div class="profile-list">
-          <span>Arduino</span>
-          <span>CAD</span>
-          <span>SCADA</span>
-          <span>HMI</span>
-        </div>
-      </aside>
-    </section>
+      <div class="hero-card">
+        <div class="profile-circle">DP</div>
+        <h3>Didah Paridah</h3>
+        <p>Bachelor Student</p>
 
-    <section class="section wrap" id="about">
-      <div class="section-heading">
-        <span>01</span>
-        <h2>Tentang saya</h2>
-      </div>
-
-      <div class="two-column">
-        <p class="lead">
-          Saya senang belajar hal baru, terutama yang berhubungan dengan sistem otomasi dan penerapan teknologi di dunia industri.
-          Selain akademik, saya juga aktif dalam organisasi, kepanitiaan, dan kegiatan pengembangan diri.
-        </p>
-
-        <div class="info-box">
-          <div>
-            <small>Pendidikan</small>
-            <strong>Bachelor, Automation Engineering Technology</strong>
-          </div>
-          <div>
-            <small>Kampus</small>
-            <strong>Diponegoro University</strong>
-          </div>
-          <div>
-            <small>Status</small>
-            <strong>2023 — Present</strong>
-          </div>
+        <div class="mini-info">
+          <span>Diponegoro University</span>
+          <span>Kota Tangerang Selatan</span>
+          <span>Automation Engineering</span>
         </div>
       </div>
     </section>
 
-    <section class="section wrap" id="experience">
-      <div class="section-heading">
-        <span>02</span>
-        <h2>Pengalaman</h2>
+    <section class="section" id="about">
+      <div class="section-title">
+        <p>About Me</p>
+        <h2>Profile Summary</h2>
+      </div>
+
+      <div class="about-box">
+        <p>
+          I am a 6th semester student of Automation Engineering at Diponegoro University.
+          I have an interest in industrial automation, control systems, CAD design,
+          and manufacturing processes. I am also interested in self-development activities
+          and have participated in several organizations and training programs.
+        </p>
+      </div>
+    </section>
+
+    <section class="section education-section">
+      <div class="section-title">
+        <p>Education</p>
+        <h2>Academic Background</h2>
       </div>
 
       <div class="timeline">
-        <article class="timeline-item">
-          <time>2026 — Present</time>
-          <div>
-            <h3>Laboratory Teaching Assistant</h3>
-            <p>Interface & Networking. Membantu mahasiswa memahami konsep jaringan, sistem interface, troubleshooting, dan dokumentasi praktikum.</p>
-          </div>
+        <div class="timeline-item">
+          <span class="year">2023 - Present</span>
+          <h3>Diponegoro University</h3>
+          <p>Bachelor, Automation Engineering Technology</p>
+        </div>
+
+        <div class="timeline-item">
+          <span class="year">2020 - 2023</span>
+          <h3>MAN 1 South Tangerang City</h3>
+          <p>Science</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="experience">
+      <div class="section-title">
+        <p>Experience</p>
+        <h2>Organization & Activities</h2>
+      </div>
+
+      <div class="experience-grid">
+        <article class="card">
+          <span>2026 - Present</span>
+          <h3>Laboratory Teaching Assistant</h3>
+          <p>Interface & Networking</p>
+          <ul>
+            <li>Assisted students in understanding networking concepts.</li>
+            <li>Guided lab sessions and troubleshooting activities.</li>
+            <li>Prepared lab materials and documentation.</li>
+          </ul>
         </article>
 
-        <article class="timeline-item">
-          <time>2025</time>
-          <div>
-            <h3>Head of Division Public Relations</h3>
-            <p>Himpunan Mahasiswa Teknologi Rekayasa Otomasi. Mengelola roadshow, sponsorship, relasi eksternal, dan industrial visit ke PT Formulatrix.</p>
-          </div>
+        <article class="card">
+          <span>2025</span>
+          <h3>Head of Public Relations Division</h3>
+          <p>Himpunan Mahasiswa Teknologi Rekayasa Otomasi</p>
+          <ul>
+            <li>Organized organizational roadshows.</li>
+            <li>Handled sponsorship coordination.</li>
+            <li>Coordinated industrial visit to PT Formulatrix.</li>
+          </ul>
         </article>
 
-        <article class="timeline-item">
-          <time>2025</time>
-          <div>
-            <h3>Staff of Robotic Contest & Scientific Paper Competition</h3>
-            <p>AEROSPACE 2025. Membantu promosi acara, komunikasi publik, serta koordinasi informasi peserta dan panitia.</p>
-          </div>
+        <article class="card">
+          <span>2025</span>
+          <h3>Public Relations Staff</h3>
+          <p>AEROSPACE 2025</p>
+          <ul>
+            <li>Managed event promotion and public communication.</li>
+            <li>Coordinated information between participants and committee members.</li>
+          </ul>
         </article>
 
-        <article class="timeline-item">
-          <time>2024 — 2025</time>
-          <div>
-            <h3>Secretary and Treasurer of Social Society</h3>
-            <p>Mengelola dokumen administrasi, notulensi, surat menyurat, budgeting, dan laporan keuangan program sosial.</p>
-          </div>
+        <article class="card">
+          <span>2024 - 2025</span>
+          <h3>Secretary and Treasurer</h3>
+          <p>Social Society</p>
+          <ul>
+            <li>Managed administrative documents and meeting minutes.</li>
+            <li>Handled financial reports and budgeting.</li>
+            <li>Coordinated communication with internal and external parties.</li>
+          </ul>
         </article>
 
-        <article class="timeline-item">
-          <time>2024</time>
-          <div>
-            <h3>Secretary & Treasurer — Automation Inspiration</h3>
-            <p>Mengelola dokumentasi, jadwal kegiatan, anggaran, serta laporan program pengabdian masyarakat.</p>
-          </div>
+        <article class="card">
+          <span>2024</span>
+          <h3>Secretary & Treasurer</h3>
+          <p>Automation Inspiration</p>
+          <ul>
+            <li>Managed documentation, schedule, budgeting, and financial reports.</li>
+            <li>Supported community service programs.</li>
+          </ul>
+        </article>
+
+        <article class="card">
+          <span>2024</span>
+          <h3>Event Staff</h3>
+          <p>LKMMPD TRO</p>
+          <ul>
+            <li>Assisted in event coordination and on-site execution.</li>
+            <li>Supported leadership training programs.</li>
+          </ul>
         </article>
       </div>
     </section>
 
-    <section class="section wrap" id="skills">
-      <div class="section-heading">
-        <span>03</span>
-        <h2>Skill</h2>
+    <section class="section" id="skills">
+      <div class="section-title">
+        <p>Skills</p>
+        <h2>Technical & Soft Skills</h2>
       </div>
 
-      <div class="skill-grid">
-        <article class="skill-card">
+      <div class="skills-wrapper">
+        <div class="skill-box">
           <h3>Hard Skills</h3>
-          <p>Basic CAD, Arduino Programming, SCADA & HMI Concepts, Administrative Reporting, Proteus, Delphi, Visual Studio Code, Arduino IDE.</p>
-        </article>
-        <article class="skill-card">
-          <h3>Software</h3>
-          <p>Microsoft Excel dan Microsoft Word untuk pengolahan data, laporan, dan kebutuhan administrasi.</p>
-        </article>
-        <article class="skill-card">
+          <div class="tags">
+            <span>Basic CAD</span>
+            <span>Arduino Programming</span>
+            <span>C/C++ Basic</span>
+            <span>SCADA & HMI Concept</span>
+            <span>Administrative Reporting</span>
+            <span>Proteus</span>
+            <span>Delphi</span>
+            <span>Visual Studio Code</span>
+            <span>Arduino IDE</span>
+          </div>
+        </div>
+
+        <div class="skill-box">
+          <h3>Software Skills</h3>
+          <div class="tags">
+            <span>Microsoft Excel</span>
+            <span>Microsoft Word</span>
+          </div>
+        </div>
+
+        <div class="skill-box">
           <h3>Soft Skills</h3>
-          <p>Leadership, problem solving, time management, komunikasi, dan koordinasi tim.</p>
-        </article>
+          <div class="tags">
+            <span>Leadership</span>
+            <span>Problem Solving</span>
+            <span>Time Management</span>
+          </div>
+        </div>
       </div>
     </section>
 
-    <section class="section wrap" id="github">
-      <div class="section-heading">
-        <span>04</span>
-        <h2>Project GitHub</h2>
+    <section class="section github-section" id="projects">
+      <div class="section-title">
+        <p>GitHub</p>
+        <h2>Latest Repositories</h2>
       </div>
 
-      <div class="github-intro">
-        <p>Repositori publik akan tampil otomatis setelah username GitHub diatur pada file <code>app.js</code>.</p>
-        <a class="button" id="githubProfile" href="https://github.com/" target="_blank" rel="noopener">Buka Profil GitHub</a>
-      </div>
+      <p class="github-note">
+        This section automatically displays public repositories from GitHub.
+      </p>
 
-      <p class="repo-status" id="repoStatus">Memuat repositori...</p>
-      <div class="repo-grid" id="repoContainer" aria-live="polite"></div>
+      <div id="repo-container" class="repo-grid">
+        <p class="loading">Loading GitHub repositories...</p>
+      </div>
     </section>
 
-    <section class="section wrap" id="contact">
-      <div class="section-heading">
-        <span>05</span>
-        <h2>Kontak</h2>
-      </div>
-
-      <div class="contact-list">
-        <a href="mailto:didaahhh@gmail.com">
-          <small>Email</small>
-          <strong>didaahhh@gmail.com</strong>
-        </a>
-        <a href="tel:+6281287078713">
-          <small>Telepon</small>
-          <strong>081287078713</strong>
-        </a>
+    <section class="section contact-section" id="contact">
+      <div class="contact-card">
         <div>
-          <small>Lokasi</small>
-          <strong>Kota Tangerang Selatan, Banten</strong>
+          <p class="label">Get in Touch</p>
+          <h2>Let’s Connect</h2>
+          <p>
+            Feel free to contact me for collaboration, organization, or academic activities.
+          </p>
+        </div>
+
+        <div class="contact-list">
+          <a href="mailto:didaahhh@gmail.com">didaahhh@gmail.com</a>
+          <a href="tel:081287078713">081287078713</a>
+          <span>Kota Tangerang Selatan, Banten</span>
         </div>
       </div>
     </section>
   </main>
 
-  <footer class="footer wrap">
-    <p>© <span id="year"></span> Didah Paridah. Dibuat dengan HTML, CSS, JavaScript, dan GitHub API.</p>
+  <footer>
+    <p>© 2026 Didah Paridah. Portfolio Website.</p>
   </footer>
 
   <script src="app.js"></script>
